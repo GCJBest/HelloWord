@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCA0CD971C33B65000ADC181 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA0CD961C33B65000ADC181 /* Dog.m */; };
 		BCF9153E1BE061B50056EB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF9153D1BE061B50056EB25 /* main.m */; };
 		BCF9154B1BE070FC0056EB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF9154A1BE070FC0056EB25 /* main.m */; };
 		BCF915571BE07B940056EB25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF915561BE07B940056EB25 /* main.m */; };
@@ -44,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BCA0CD951C33B65000ADC181 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		BCA0CD961C33B65000ADC181 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		BCF9153A1BE061B50056EB25 /* JSon解析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JSon解析"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF9153D1BE061B50056EB25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCF915481BE070FC0056EB25 /* 自定义JSon字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自定义JSon字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				BCF9154A1BE070FC0056EB25 /* main.m */,
+				BCA0CD951C33B65000ADC181 /* Dog.h */,
+				BCA0CD961C33B65000ADC181 /* Dog.m */,
 				BCF9154F1BE072660056EB25 /* JSonFile */,
 			);
 			path = "自定义JSon字符串";
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA0CD971C33B65000ADC181 /* Dog.m in Sources */,
 				BCF9154B1BE070FC0056EB25 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +404,7 @@
 				BCF915431BE061B50056EB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF9154C1BE070FC0056EB25 /* Build configuration list for PBXNativeTarget "自定义JSon字符串" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +413,7 @@
 				BCF9154E1BE070FC0056EB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF915581BE07B940056EB25 /* Build configuration list for PBXNativeTarget "网络下载JSon数据" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +422,7 @@
 				BCF9155A1BE07B940056EB25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
